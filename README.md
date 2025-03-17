@@ -223,17 +223,6 @@ Upload to GitHub Pages for free hosting.
         <p>&copy; 2025 My Business. All Rights Reserved.</p>
     </footer>
 
-    <script>
-        function login() {
-            let username = prompt("Enter your username:");
-            if (username) {
-                alert("Welcome, " + username + "!");
-            } else {
-                alert("Login canceled.");
-            }
-        }
-    </script>
-
 </body>
 </html>
 
