@@ -51,295 +51,80 @@ Deploy the website.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
-## HTML CODE
-# index.html
-```
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mobile Store</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <h1>Mobile Store</h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="brands.html">Brands</a></li>
-            <li><a href="offers.html">Offers</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="hero">
-      <div class="hero-text">
-        <h2>Latest Smartphones at Best Prices</h2>
-        <p>
-          Find the perfect mobile phone with unbeatable deals and discounts.
-        </p>
-        <a href="#" class="btn">Shop Now</a>
-      </div>
-    </section>
-    <section class="products container">
-      <div class="product">
-        <img src="Redmi.jpg" width="100" height="100" alt="Smartphone 1" />
-        <h3>Redmi A3</h3>
-        <p>High performance and sleek design.</p>
-        <a href="#" class="btn">Buy Now</a>
-      </div>
-      <div class="product">
-        <img src="Samsung.jpg" width="100" height="100" alt="Smartphone 2" />
-        <h3>Samsung Galaxy A04S</h3>
-        <p>Affordable and feature-packed.</p>
-        <a href="#" class="btn">Buy Now</a>
-      </div>
-      <div class="product">
-        <img src="oneplus.jpg" width="100" height="100" alt="Smartphone 3" />
-        <h3>OnePlus 12</h3>
-        <p>Best battery life and camera quality.</p>
-        <a href="#" class="btn">Buy Now</a>
-      </div>
-      <div class="product">
-        <img src="oppo.jpg" width="100" height="100" alt="Smartphone 4" />
-        <h3>Oppo Reno 13 Pro</h3>
-        <p>Flagship experience at a great price.</p>
-        <a href="#" class="btn">Buy Now</a>
-      </div>
-    </section>
-    <footer>
-      <p>© 2025 Mobile Store. All Rights Reserved .Deepika S</p>
-    </footer>
-  </body>
-</html>
-```
-# shop.html
-```
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shop - Mobile Store</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <h1>Mobile Store</h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html" class="active">Shop</a></li>
-            <li><a href="brands.html">Brands</a></li>
-            <li><a href="offers.html">Offers</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="products container">
-      <h2>Shop Smartphones</h2>
-      <div class="product">
-        <img src="Redmi.jpg" alt="Redmi A3" />
-        <h3>Redmi A3</h3>
-        <p>Affordable and powerful.</p>
-        <a href="buy.html?product=redmi-a3" class="btn">Buy Now</a>
-      </div>
-      <div class="product">
-        <img src="Samsung.jpg" alt="Samsung A04S" />
-        <h3>Samsung Galaxy A04S</h3>
-        <p>Premium feel at a great price.</p>
-        <a href="buy.html?product=samsung-a04s" class="btn">Buy Now</a>
-      </div>
-    </section>
-
-    <footer>
-      <p>© 2025 Mobile Store. All Rights Reserved.Deepika S</p>
-    </footer>
-  </body>
-</html>
-```
-# brands.html
-```
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brands - Mobile Store</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <h1>Mobile Brands</h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="brands.html">Brands</a></li>
-            <li><a href="offers.html">Offers</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="brands container">
-      <h2>Popular Mobile Brands</h2>
-      <div class="brand-gallery">
-        <div class="brand">
-          <img src="apple.jpg" width="100" height="100" alt="Apple" />
-          <h3>Apple</h3>
-        </div>
-        <div class="brand">
-          <img src="Samsung.jpg" width="100" height="100" alt="Samsung" />
-          <h3>Samsung</h3>
-        </div>
-        <div class="brand">
-          <img src="oneplus.jpg" width="100" height="100" alt="OnePlus" />
-          <h3>OnePlus</h3>
-        </div>
-        <div class="brand">
-          <img src="oppo.jpg" width="100" height="100" alt="Oppo" />
-          <h3>Oppo</h3>
-        </div>
-        <div class="brand">
-          <img src="vivo.jpg" width="100" height="100" alt="Vivo" />
-          <h3>Vivo</h3>
-        </div>
-        <div class="brand">
-          <img src="Redmi.jpg" width="100" height="100" alt="Redmi" />
-          <h3>Xiaomi</h3>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <p>© 2025 Mobile Store. All Rights Reserved.Deepika S</p>
-    </footer>
-  </body>
-</html>
-
-```
-# offers.html
+# HTML CODE
 ```
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offers - Mobile Store</title>
+    <title>Mobile Store</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function showPage(pageId) {
+            let pages = document.querySelectorAll("section");
+            pages.forEach(page => page.style.display = "none");
+            document.getElementById(pageId).style.display = "block";
+        }
+    </script>
 </head>
 <body>
-
 <header>
     <div class="container">
         <h1>Mobile Store</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="brands.html">Brands</a></li>
-                <li><a href="offers.html" class="active">Offers</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('shop')">Shop</a></li>
+                <li><a href="#" onclick="showPage('brands')">Brands</a></li>
+                <li><a href="#" onclick="showPage('offers')">Offers</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contact</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
-<section class="offers">
+<section id="home">
+    <h2>Latest Smartphones at Best Prices</h2>
+    <p>Find the perfect mobile phone with unbeatable deals and discounts.</p>
+</section>
+
+<section id="shop" style="display: none;">
+    <h2>Shop Smartphones</h2>
+    <p>Explore our wide range of smartphones.</p>
+</section>
+
+<section id="brands" style="display: none;">
+    <h2>Popular Mobile Brands</h2>
+    <p>Check out the best brands in the market.</p>
+</section>
+
+<section id="offers" style="display: none;">
     <h2>🔥 Exclusive Deals & Offers 🔥</h2>
-    
-    <div class="offer">
-        <h3>Flat 10% Off on All Smartphones! 📱</h3>
-        <p>Use code: <strong>MOBILE10</strong> at checkout.</p>
-    </div>
-    
-    <div class="offer">
-        <h3>Exchange Your Old Phone & Get ₹3000 Extra Discount! 🔄</h3>
-        <p>Limited time offer. Hurry up!</p>
-    </div>
+    <p>Find the best deals on smartphones and accessories.</p>
+</section>
 
-    <div class="offer">
-        <h3>Buy 1 Get 1 Free on Accessories! 🎧</h3>
-        <p>Applicable on selected models. Offer valid till stock lasts.</p>
-    </div>
-
-    <div class="offer">
-        <h3>EMI Starting at ₹999/month! 💳</h3>
-        <p>Zero down payment on top brands.</p>
-    </div>
-
-    <div class="offer">
-        <h3>Free Screen Replacement for 6 Months! 🔧</h3>
-        <p>Available for select models purchased before March 31st.</p>
-    </div>
+<section id="contact" style="display: none;">
+    <h2>Contact Us</h2>
+    <form action="submit_contact.php" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit" class="btn">Send Message</button>
+    </form>
 </section>
 
 <footer>
     <p>© 2025 Mobile Store. All Rights Reserved. Deepika S</p>
 </footer>
-
 </body>
 </html>
-```
-# contact.html
-```
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us - Mobile Store</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <h1>Mobile Store</h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="brands.html">Brands</a></li>
-            <li><a href="offers.html">Offers</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section class="contact container">
-      <h2>Contact Us</h2>
-      <form action="submit_contact.php" method="POST">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Your Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </section>
-
-    <footer>
-      <p>© 2025 Mobile Store. All Rights Reserved.Deepika S</p>
-    </footer>
-  </body>
-</html>
-
 ```
 # style.css
 ```
