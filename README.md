@@ -60,13 +60,6 @@ Upload to GitHub Pages for free hosting.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Store</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        function showPage(pageId) {
-            let pages = document.querySelectorAll("section");
-            pages.forEach(page => page.style.display = "none");
-            document.getElementById(pageId).style.display = "block";
-        }
-    </script>
 </head>
 <body>
 <header>
